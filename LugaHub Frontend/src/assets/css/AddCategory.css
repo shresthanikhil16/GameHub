@@ -1,0 +1,210 @@
+/* AddBrand.css */
+
+.addcat-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.addcat-buttons {
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: #800000;
+}
+
+.addcat-btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+
+.addcat-btn button {
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+
+.addcat-btn button i {
+    margin-right: 10px;
+}
+
+.addcat-top span {
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.addcat-top i {
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.addcat-btn button.products:hover {
+    background-color: lightgray;
+}
+
+.addcat-btn button.product {
+    background-color: lightgrey;
+}
+
+.addcat-display h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.addcat-display {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    row-gap: 20px;
+}
+
+.addcat-display input {
+    background-color: white;
+    width: 200%;
+    color: black;
+    border: 2px solid black;
+}
+
+.addcat-desc {
+    height: 90px;
+}
+
+.addcat-display button {
+    background-color: #800000;
+    color: white;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.addcat-display input::placeholder {
+    color: black;
+}
+
+.addproduct-dropbtn {
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+
+.addproduct-dropdown i {
+    margin-left: 7px;
+}
+
+.addproduct-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+.addproduct-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+button.addproduct-dropbtn {
+    height: 46%;
+}
+
+.addproduct-dropdown-content a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.addproduct-dropdown:hover .addproduct-dropdown-content {
+    display: block;
+}
+
+.addproduct-dropdown:hover .addproduct-dropbtn {
+    background-color: lightgrey;
+}
+
+.cat-dropbtn {
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+
+.cat-dropdown i {
+    margin-left: 7px;
+}
+
+.cat-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+.cat-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+button.cat-dropbtn {
+    height: 46%;
+}
+
+.cat-dropdown-content a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.cat-dropdown:hover .cat-dropdown-content {
+    display: block;
+}
+
+.cat-dropdown:hover .cat-dropbtn {
+    background-color: lightgrey;
+}
+
+.brand-dropbtn {
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+
+.brand-dropdown i {
+    margin-left: 7px;
+}
+
+.brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+
+.brand-dropdown-content a {
+    color: black;
+    p

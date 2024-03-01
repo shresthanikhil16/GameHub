@@ -1,0 +1,171 @@
+.Pr-container {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.Pr-buttons {
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: #800000;
+}
+
+.Pr-btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+
+.Pr-btn button {
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+
+.Pr-btn button i {
+    margin-right: 10px;
+}
+
+.Pr-top span {
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.Pr-top i {
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.Pr-display {
+    width: 82vw;
+    color: #b70000;
+}
+
+.Pr-btn button.products:hover {
+    background-color: lightgray;
+}
+
+.Pr-btn button.product {
+    background-color: lightgrey;
+}
+
+.Pr-display h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Pr-display table {
+    margin: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Pr-display th,
+.Pr-display td {
+    border: 2px solid #b70000;
+    padding: 8px;
+    text-align: center;
+}
+
+.Pr-display th {
+    background-color: #800000;
+    color: white;
+}
+
+.Pr-display tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Pr-display tr:hover {
+    background-color: #ddd;
+}
+
+.addproduct-dropbtn,
+.cat-dropbtn,
+.brand-dropbtn,
+.profile-dropbtn {
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+    text-align: left;
+}
+
+.addproduct-dropdown i,
+.cat-dropdown i,
+.brand-dropdown i,
+.profile-dropdown i {
+    margin-left: 7px;
+}
+
+.addproduct-dropdown-content,
+.cat-dropdown-content,
+.brand-dropdown-content,
+.profile-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.addproduct-dropdown-content a,
+.cat-dropdown-content a,
+.brand-dropdown-content a,
+.profile-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.addproduct-dropdown-content a:hover,
+.cat-dropdown-content a:hover,
+.brand-dropdown-content a:hover,
+.profile-dropdown-content a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+button.addproduct-dropbtn,
+button.cat-dropbtn,
+button.brand-dropbtn,
+button.profile-dropbtn {
+    height: 46%;
+}
+
+td button {
+    padding: 8px 12px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff; /* Text color, adjust accordingly */
+    font-weight: bold;
+    margin: 8px;
+}
+
+/* Update Button Styles */
+td button.update {
+    background-color: grey;
+    width: 65px;
+}
+
+/* Delete Button Styles */
+td button.delete {
+    background-color: red;
+}
+
+.product-image {
+    width: 130px;
+    height: 120px;
+    margin-left: 30px;
+}
